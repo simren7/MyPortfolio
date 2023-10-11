@@ -226,7 +226,7 @@ nav ul li {
 
     
     .image {
-        width: 180px; /* Increase the width of the image */
+        width: 150px; /* Increase the width of the image */
         height: auto;
         margin-top: 20px; /* Add margin-top to create space between image and text */
         margin-left: 10px; /* Add some spacing between the image and the text */

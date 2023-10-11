@@ -159,3 +159,105 @@ nav ul li {
 .section:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+/* Add this code to the end of your CSS file */
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .main {
+        height: auto;
+        padding-bottom: 50px; /* Adjust padding for smaller screens */
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar .logo {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    ul li {
+        padding: 10px 0;
+    }
+
+    .info {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .image {
+        width: 100%;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .image img {
+        width: 70%;
+        height: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .icons ion-icon {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+}
+
+
+/* Add this code to the end of your CSS file */
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    /* ... (previous styles) ... */
+
+    
+    .image {
+        width: 180px; /* Increase the width of the image */
+        height: auto;
+        margin-top: 20px; /* Add margin-top to create space between image and text */
+        margin-left: 10px; /* Add some spacing between the image and the text */
+    }
+}
+
+/* Add this CSS code to your styles */
+
+/* Styles for the menu toggle button */
+.menu-toggle {
+    display: none; /* Initially hide the menu toggle button */
+}
+
+/* Dropdown styles */
+.dropdown-content {
+    display: none;
+    /* ... (previous dropdown styles) ... */
+}
+
+/* Media query for small screens (e.g., phones) */
+@media only screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show the menu toggle button */
+        cursor: pointer;
+    }
+
+    .dropdown-content.show {
+        display: block; /* Show the dropdown menu when .show class is added */
+    }
+
+    .dropdown-content {
+        /* ... (previous dropdown styles) ... */
+    }
+}

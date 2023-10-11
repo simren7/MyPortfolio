@@ -22,7 +22,22 @@
 	 </ul>
         </div>
      </nav>
-  
+
+  <nav>
+    <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <div class="dropdown-content">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#certification">Certification</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
 
         <div class="info">
             <h1>Hi, I'm <span>Simren</span>.</h1>
@@ -40,8 +55,6 @@
             <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
             <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
         </div>
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -175,5 +188,11 @@ Automate the process of screening candidate resume, creating a recruitment bot u
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
+<script>
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('.dropdown-content').classList.toggle('show');
+});
+
+</script>
 </body>
 </html>

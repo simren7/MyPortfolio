@@ -161,13 +161,7 @@ nav ul li {
 }
 
 /* Add this code to the end of your CSS file */
- body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
+ 
         h2 {
             text-align: left;
             border-bottom: 2px solid #333;
